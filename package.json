@@ -1,0 +1,24 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mick-whats/images.git"
+  },
+  "keywords": [],
+  "author": "whats",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mick-whats/images/issues"
+  },
+  "homepage": "https://github.com/mick-whats/images#readme",
+  "dependencies": {
+    "marked": "^0.6.1",
+    "tiny-glob": "^0.2.6"
+  }
+}
