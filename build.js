@@ -23,21 +23,7 @@ const IMAGE_DIR_NAME = 'assets/';
     const _path = basePath.replace(IMAGE_DIR_NAME, '');
     const url = `${BASE_URL}/${_path}`;
     const text = [
-      `## ${_path}`,
-      '### image',
-      '---',
-      `![_path](${_path})`,
-      '---',
-      '### code',
-      '```\n',
-      '# path',
-      url,
-      '# html',
-      `<a href="${url}">${_path}</a>`,
-      '# markdown',
-      `[${_path}](${url})`,
-      '```',
-      '### link',
+      `<a href="${url}"><img src="${_path}" width="150px"></a>`,
       `[${_path}](${url})`,
       '---',
       ''
