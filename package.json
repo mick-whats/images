@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/mick-whats/images#readme",
   "dependencies": {
-    "marked": "^0.6.1",
     "tiny-glob": "^0.2.6"
   }
 }
