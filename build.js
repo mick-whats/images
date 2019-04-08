@@ -6,7 +6,9 @@ const BASE_URL = 'https://mick-whats-images.netlify.com';
 const IMAGE_DIR_NAME = 'assets/';
 
 (async function() {
-  const files = await glob('**/*.{png, jpeg, jpg, ico, svg, gif}', {cwd: IMAGE_DIR_NAME});
+  const files = await glob('**/*.{png,jpeg,jpg,ico,svg,gif}', {
+    cwd: IMAGE_DIR_NAME
+  });
   let list = '';
   files.forEach(_path => {
     list += `
